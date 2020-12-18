@@ -36,7 +36,7 @@ con.query(sql, params, (err, results) => {
     results.forEach((user) => {
         console.log(user.email);
     })
-});
+});  
 
 // params = { 'id': 5 };
 // sql = 'SELECT * FROM users WHERE ?;';

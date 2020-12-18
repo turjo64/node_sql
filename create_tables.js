@@ -8,4 +8,4 @@ let files = [
 
 files.forEach((file) => {
     db.importSQL(file);
-})
+})  

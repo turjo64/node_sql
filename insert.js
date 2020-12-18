@@ -16,7 +16,7 @@ posts.forEach((post) => {
     con.query(sql, post, (err, results) => {
         if (err) console.log(err.sqlMessage);
         console.log('insert success.');
-    })
+    }) 
 })
 
 con.end();

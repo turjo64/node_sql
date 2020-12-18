@@ -14,4 +14,4 @@ con.query(sql, email, (err, results) => {
     console.log('delete success.');
 })
 
-con.end();
+con.end(); 

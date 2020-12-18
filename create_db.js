@@ -11,7 +11,7 @@ const con = mysql.createConnection({
 con.connect((err) => {
     if (err) throw err;
     console.log('connect success');
-});
+}); 
 
 const sql = 'CREATE DATABASE ' + config.mysql.database;
 console.log(sql);

@@ -11,4 +11,4 @@ const sql = 'DROP DATABASE ' + config.mysql.database;
 
 con.query(sql);
 
-con.end();
+con.end(); 

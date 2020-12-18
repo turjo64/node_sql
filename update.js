@@ -14,4 +14,4 @@ con.query(sql, params, (err, results) => {
     console.log('update success.');
 })
 
-con.end();
+con.end(); 
